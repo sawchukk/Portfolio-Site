@@ -1,0 +1,115 @@
+.web_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.web_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web_navbar-links_logo {
+    margin-right: 2rem;
+}
+
+/* Logo image characteristics*/
+.web_navbar-links_logo img {
+    width: 62px;
+    height: 16px;
+}
+
+.web_navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Text characteristics for items the navigation bar*/
+.web_navbar-menu_container p, 
+.web_navbar-links_container p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.web_navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    width: 152px;
+    height: 58px;
+    left: 1153px;
+    top: 55px;
+
+}
+
+.web_navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.web_navbar-mennu svg{
+    cursor: pointer;
+}
+
+/* characteristics of the menu dropdown*/
+.web_navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #fff;
+
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0; 
+    margin-top: 1rem;
+    margin-width: 210px; 
+    /*min-height: 210px;*/
+    border-radius: 5px;
+    box-shadow:  0 0 5 rgba(0,0,0,0.2);
+
+}
+
+.web_navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .web_navbar-links_container {
+        display: none;
+    }
+    .web_navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .web_navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .web_navbar{
+        padding: 2rem;
+    }
+    .web_navbar-menu_container{
+        top: 20px;
+    }
+    .web_navbar-menu_container-links-sign{
+        display: block;
+    }
+}
