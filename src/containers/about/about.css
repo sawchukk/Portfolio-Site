@@ -1,0 +1,44 @@
+.web_about {
+    display: flex;
+}
+
+.web_about-image {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web_about-image img {
+    width: 604px;
+    height: 623px;
+}
+
+.web_about-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:column;
+
+    margin-left: 5rem;
+}
+
+.web_about-text h1{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.web_about-text p{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

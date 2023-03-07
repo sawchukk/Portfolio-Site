@@ -16,7 +16,7 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='web_navbar'>
+    <div className='web_navbar'> 
       <div className='web_navbar-links'>
         <div className='web_navbar-links_logo'>
            <img src={logo} alt="logo" />

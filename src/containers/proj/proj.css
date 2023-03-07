@@ -1,0 +1,50 @@
+.web_proj {
+    display: flex;
+
+}
+
+.web_proj-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    flex-direction:column;
+
+    margin-left: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-right: 6rem;
+
+}
+
+.web_proj-content h1 {
+    color: #fff;
+}
+
+.web_proj-content hr {
+    color: #fff;
+}
+
+.web_proj-content_sub {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.web_proj-content_sub-name{
+    display: flex;
+    flex: auto;
+}
+
+.web_proj-content_sub-name h2{
+    color: #fff;
+}
+
+.web_proj-content_sub-text{
+    display: flex;
+}
+
+.web_proj-content_sub-text p{
+    color: #fff;
+    text-align: right;
+}

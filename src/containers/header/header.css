@@ -1,0 +1,64 @@
+.web_header {
+    display: flex;
+}
+
+/* formatting for main content container */
+.web_header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:column;
+
+    margin-left: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 20rem;
+}
+
+/* formatting for main header text */
+.web_header-content h1 {
+    width: 1232px;
+    height: 236px;
+    left: 91px;
+    top: 261px;
+
+    font-family: 'Warming';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 270px;
+    line-height: 112.1%;
+    /* or 303px */
+
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+}
+
+.web_header-content_next button{
+
+    background-color: transparent;
+    outline-color: transparent;
+    border: transparent;
+
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+
+/* formatting for image container */
+.web_header-image{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* formatting for image */
+.web_header-image img{
+    width: 604px;
+    height: 623px;
+    
+}
