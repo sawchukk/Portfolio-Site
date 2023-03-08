@@ -1,0 +1,39 @@
+
+.web_projSubsection {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+
+}
+
+.web_projSubsection hr {
+    color: #fff;
+}
+
+.web_projSubsection_content{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 1rem;
+}
+
+.web_projSubsection_content-name{
+    display: flex;
+    flex: auto;
+}
+
+.web_projSubsection_content-name h2{
+    color: #fff;
+    text-align: center;
+}
+
+.web_projSubsection_content-text{
+    display: flex;
+}
+
+.web_projSubsection_content-text p{
+    color: #fff;
+    text-align: right;
+
+}
