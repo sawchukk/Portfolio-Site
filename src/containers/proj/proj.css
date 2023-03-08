@@ -20,6 +20,10 @@
 .web_proj-content h1 {
     color: #fff;
     margin-bottom: 1rem;
+    
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
 }
 
 .web_proj-content hr {
@@ -27,7 +31,6 @@
 }
 
 .web_proj-content p {
-    margin-top: 3rem;
     color: #fff;
 }
 
