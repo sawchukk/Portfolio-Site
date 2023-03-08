@@ -19,12 +19,19 @@
 
 .web_proj-content h1 {
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 .web_proj-content hr {
     color: #fff;
 }
 
+.web_proj-content p {
+    margin-top: 3rem;
+    color: #fff;
+}
+
+/*
 .web_proj-content_sub {
     display: flex;
     flex-direction: row;
@@ -47,4 +54,4 @@
 .web_proj-content_sub-text p{
     color: #fff;
     text-align: right;
-}
+}*/
